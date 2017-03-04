@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38659E411E6AD7CC0017057D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38659E401E6AD7CC0017057D /* AppDelegate.swift */; };
+		38659E431E6AD7CC0017057D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38659E421E6AD7CC0017057D /* ViewController.swift */; };
+		38659E461E6AD7CC0017057D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38659E441E6AD7CC0017057D /* Main.storyboard */; };
+		38659E491E6AD7CC0017057D /* Auxilium.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38659E471E6AD7CC0017057D /* Auxilium.xcdatamodeld */; };
+		38659E4B1E6AD7CC0017057D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38659E4A1E6AD7CC0017057D /* Assets.xcassets */; };
+		38659E4E1E6AD7CC0017057D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38659E4C1E6AD7CC0017057D /* LaunchScreen.storyboard */; };
+		38659E591E6AD7CC0017057D /* AuxiliumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38659E581E6AD7CC0017057D /* AuxiliumTests.swift */; };
+		38659E641E6AD7CC0017057D /* AuxiliumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38659E631E6AD7CC0017057D /* AuxiliumUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38659E551E6AD7CC0017057D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38659E351E6AD7CC0017057D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38659E3C1E6AD7CC0017057D;
+			remoteInfo = Auxilium;
+		};
+		38659E601E6AD7CC0017057D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38659E351E6AD7CC0017057D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38659E3C1E6AD7CC0017057D;
+			remoteInfo = Auxilium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38659E3D1E6AD7CC0017057D /* Auxilium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Auxilium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38659E401E6AD7CC0017057D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38659E421E6AD7CC0017057D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38659E451E6AD7CC0017057D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38659E481E6AD7CC0017057D /* Auxilium.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Auxilium.xcdatamodel; sourceTree = "<group>"; };
+		38659E4A1E6AD7CC0017057D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38659E4D1E6AD7CC0017057D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38659E4F1E6AD7CC0017057D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38659E541E6AD7CC0017057D /* AuxiliumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuxiliumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38659E581E6AD7CC0017057D /* AuxiliumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuxiliumTests.swift; sourceTree = "<group>"; };
+		38659E5A1E6AD7CC0017057D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38659E5F1E6AD7CC0017057D /* AuxiliumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuxiliumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38659E631E6AD7CC0017057D /* AuxiliumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuxiliumUITests.swift; sourceTree = "<group>"; };
+		38659E651E6AD7CC0017057D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38659E3A1E6AD7CC0017057D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38659E511E6AD7CC0017057D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38659E5C1E6AD7CC0017057D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38659E341E6AD7CC0017057D = {
+			isa = PBXGroup;
+			children = (
+				38659E3F1E6AD7CC0017057D /* Auxilium */,
+				38659E571E6AD7CC0017057D /* AuxiliumTests */,
+				38659E621E6AD7CC0017057D /* AuxiliumUITests */,
+				38659E3E1E6AD7CC0017057D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38659E3E1E6AD7CC0017057D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38659E3D1E6AD7CC0017057D /* Auxilium.app */,
+				38659E541E6AD7CC0017057D /* AuxiliumTests.xctest */,
+				38659E5F1E6AD7CC0017057D /* AuxiliumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38659E3F1E6AD7CC0017057D /* Auxilium */ = {
+			isa = PBXGroup;
+			children = (
+				38659E401E6AD7CC0017057D /* AppDelegate.swift */,
+				38659E421E6AD7CC0017057D /* ViewController.swift */,
+				38659E441E6AD7CC0017057D /* Main.storyboard */,
+				38659E4A1E6AD7CC0017057D /* Assets.xcassets */,
+				38659E4C1E6AD7CC0017057D /* LaunchScreen.storyboard */,
+				38659E4F1E6AD7CC0017057D /* Info.plist */,
+				38659E471E6AD7CC0017057D /* Auxilium.xcdatamodeld */,
+			);
+			path = Auxilium;
+			sourceTree = "<group>";
+		};
+		38659E571E6AD7CC0017057D /* AuxiliumTests */ = {
+			isa = PBXGroup;
+			children = (
+				38659E581E6AD7CC0017057D /* AuxiliumTests.swift */,
+				38659E5A1E6AD7CC0017057D /* Info.plist */,
+			);
+			path = AuxiliumTests;
+			sourceTree = "<group>";
+		};
+		38659E621E6AD7CC0017057D /* AuxiliumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38659E631E6AD7CC0017057D /* AuxiliumUITests.swift */,
+				38659E651E6AD7CC0017057D /* Info.plist */,
+			);
+			path = AuxiliumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38659E3C1E6AD7CC0017057D /* Auxilium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38659E681E6AD7CC0017057D /* Build configuration list for PBXNativeTarget "Auxilium" */;
+			buildPhases = (
+				38659E391E6AD7CC0017057D /* Sources */,
+				38659E3A1E6AD7CC0017057D /* Frameworks */,
+				38659E3B1E6AD7CC0017057D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Auxilium;
+			productName = Auxilium;
+			productReference = 38659E3D1E6AD7CC0017057D /* Auxilium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38659E531E6AD7CC0017057D /* AuxiliumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38659E6B1E6AD7CC0017057D /* Build configuration list for PBXNativeTarget "AuxiliumTests" */;
+			buildPhases = (
+				38659E501E6AD7CC0017057D /* Sources */,
+				38659E511E6AD7CC0017057D /* Frameworks */,
+				38659E521E6AD7CC0017057D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38659E561E6AD7CC0017057D /* PBXTargetDependency */,
+			);
+			name = AuxiliumTests;
+			productName = AuxiliumTests;
+			productReference = 38659E541E6AD7CC0017057D /* AuxiliumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38659E5E1E6AD7CC0017057D /* AuxiliumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38659E6E1E6AD7CC0017057D /* Build configuration list for PBXNativeTarget "AuxiliumUITests" */;
+			buildPhases = (
+				38659E5B1E6AD7CC0017057D /* Sources */,
+				38659E5C1E6AD7CC0017057D /* Frameworks */,
+				38659E5D1E6AD7CC0017057D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38659E611E6AD7CC0017057D /* PBXTargetDependency */,
+			);
+			name = AuxiliumUITests;
+			productName = AuxiliumUITests;
+			productReference = 38659E5F1E6AD7CC0017057D /* AuxiliumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38659E351E6AD7CC0017057D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Akash Sonthalia";
+				TargetAttributes = {
+					38659E3C1E6AD7CC0017057D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K92J79F7ZT;
+						ProvisioningStyle = Automatic;
+					};
+					38659E531E6AD7CC0017057D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K92J79F7ZT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38659E3C1E6AD7CC0017057D;
+					};
+					38659E5E1E6AD7CC0017057D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K92J79F7ZT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38659E3C1E6AD7CC0017057D;
+					};
+				};
+			};
+			buildConfigurationList = 38659E381E6AD7CC0017057D /* Build configuration list for PBXProject "Auxilium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38659E341E6AD7CC0017057D;
+			productRefGroup = 38659E3E1E6AD7CC0017057D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38659E3C1E6AD7CC0017057D /* Auxilium */,
+				38659E531E6AD7CC0017057D /* AuxiliumTests */,
+				38659E5E1E6AD7CC0017057D /* AuxiliumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38659E3B1E6AD7CC0017057D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38659E4E1E6AD7CC0017057D /* LaunchScreen.storyboard in Resources */,
+				38659E4B1E6AD7CC0017057D /* Assets.xcassets in Resources */,
+				38659E461E6AD7CC0017057D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38659E521E6AD7CC0017057D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38659E5D1E6AD7CC0017057D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38659E391E6AD7CC0017057D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38659E431E6AD7CC0017057D /* ViewController.swift in Sources */,
+				38659E491E6AD7CC0017057D /* Auxilium.xcdatamodeld in Sources */,
+				38659E411E6AD7CC0017057D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38659E501E6AD7CC0017057D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38659E591E6AD7CC0017057D /* AuxiliumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38659E5B1E6AD7CC0017057D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38659E641E6AD7CC0017057D /* AuxiliumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38659E561E6AD7CC0017057D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38659E3C1E6AD7CC0017057D /* Auxilium */;
+			targetProxy = 38659E551E6AD7CC0017057D /* PBXContainerItemProxy */;
+		};
+		38659E611E6AD7CC0017057D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38659E3C1E6AD7CC0017057D /* Auxilium */;
+			targetProxy = 38659E601E6AD7CC0017057D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38659E441E6AD7CC0017057D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38659E451E6AD7CC0017057D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38659E4C1E6AD7CC0017057D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38659E4D1E6AD7CC0017057D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38659E661E6AD7CC0017057D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38659E671E6AD7CC0017057D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38659E691E6AD7CC0017057D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K92J79F7ZT;
+				INFOPLIST_FILE = Auxilium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Akash-Sonthalia.Auxilium";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		38659E6A1E6AD7CC0017057D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K92J79F7ZT;
+				INFOPLIST_FILE = Auxilium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Akash-Sonthalia.Auxilium";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		38659E6C1E6AD7CC0017057D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K92J79F7ZT;
+				INFOPLIST_FILE = AuxiliumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Akash-Sonthalia.AuxiliumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Auxilium.app/Auxilium";
+			};
+			name = Debug;
+		};
+		38659E6D1E6AD7CC0017057D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K92J79F7ZT;
+				INFOPLIST_FILE = AuxiliumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Akash-Sonthalia.AuxiliumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Auxilium.app/Auxilium";
+			};
+			name = Release;
+		};
+		38659E6F1E6AD7CC0017057D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K92J79F7ZT;
+				INFOPLIST_FILE = AuxiliumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Akash-Sonthalia.AuxiliumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Auxilium;
+			};
+			name = Debug;
+		};
+		38659E701E6AD7CC0017057D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K92J79F7ZT;
+				INFOPLIST_FILE = AuxiliumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Akash-Sonthalia.AuxiliumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Auxilium;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38659E381E6AD7CC0017057D /* Build configuration list for PBXProject "Auxilium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38659E661E6AD7CC0017057D /* Debug */,
+				38659E671E6AD7CC0017057D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38659E681E6AD7CC0017057D /* Build configuration list for PBXNativeTarget "Auxilium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38659E691E6AD7CC0017057D /* Debug */,
+				38659E6A1E6AD7CC0017057D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38659E6B1E6AD7CC0017057D /* Build configuration list for PBXNativeTarget "AuxiliumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38659E6C1E6AD7CC0017057D /* Debug */,
+				38659E6D1E6AD7CC0017057D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38659E6E1E6AD7CC0017057D /* Build configuration list for PBXNativeTarget "AuxiliumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38659E6F1E6AD7CC0017057D /* Debug */,
+				38659E701E6AD7CC0017057D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		38659E471E6AD7CC0017057D /* Auxilium.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				38659E481E6AD7CC0017057D /* Auxilium.xcdatamodel */,
+			);
+			currentVersion = 38659E481E6AD7CC0017057D /* Auxilium.xcdatamodel */;
+			path = Auxilium.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 38659E351E6AD7CC0017057D /* Project object */;
+}
